@@ -193,7 +193,7 @@ function Home() {
                   ملاحظات المركبة
                 </div>
 
-                <div className="flex flex-wrap gap-2 gap-x-4  ">
+                <div className="flex flex-wrap gap-2 gap-x-4 p-0.5  ">
                   {items.map((label, index) => (
                     <label
                       key={index}
@@ -219,7 +219,7 @@ function Home() {
                 <div className="absolute top-0 right-0  px-2 bg-gray-400 font-semibold text-xs sm:text-sm border-[2px] border-t-0 border-r-0 border-gray-400">
                   ملاحظات العميل
                 </div>
-                <div className="flex flex-wrap gap-1 gap-y-2 gap-x-3 ">
+                <div className="flex flex-wrap gap-1 gap-y-2 gap-x-3 p-0.5 ">
                   {customerNotes.map((label, index) => (
                     <label
                       key={index}
@@ -235,7 +235,7 @@ function Home() {
                 <div className="absolute top-0 right-0  px-2 bg-gray-400 font-semibold text-xs sm:text-sm border-[2px] border-t-0 border-r-0 border-gray-400">
                   ملاحظات الفني
                 </div>
-                <div className="flex flex-wrap gap-1 gap-y-2 ">
+                <div className="flex flex-wrap gap-1 gap-y-2 p-0.5 ">
                   {technicianNotes.map((label, index) => (
                     <label
                       key={index}
