@@ -208,7 +208,7 @@ function Home() {
 
               {/* Customer Notes */}
               <div className="w-full p-1 pr-24 relative border-[2px] border-gray-400 min-h-[42px]">
-                <div className="absolute top-0 right-0 px-2 py-0.5 bg-gray-200 font-bold text-[10px] border-b-[2px] border-l-[2px] border-gray-400">
+                <div className="absolute top-0 right-0 px-2 py-0.5 bg-gray-200 font-bold  text-[10px] border-b-[2px] border-l-[2px] border-gray-400">
                   ملاحظات العميل
                 </div>
                 <div className="flex flex-wrap gap-1 p-0.5">
